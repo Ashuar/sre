@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-13 15:19:12.066297",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_time_log_section",
+  "from_date",
+  "to_date",
+  "column_break_kjkd",
+  "customers_remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_time_log_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Time Log"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Datetime",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Datetime",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "column_break_kjkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customers_remarks",
+   "fieldtype": "Small Text",
+   "label": "Customer's Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-13 15:20:41.836356",
+ "modified_by": "Administrator",
+ "module": "Sre",
+ "name": "Time Log",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
